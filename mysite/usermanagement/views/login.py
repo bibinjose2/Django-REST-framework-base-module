@@ -5,8 +5,8 @@ from rest_framework import status, views
 from rest_framework.authtoken.models import Token
 from rest_framework.permissions import IsAuthenticated
 
-from main.base_response import HttpSuccessResponse, HttpErrorResponse
-from main.serializers.user import UserTokenSerializer
+from usermanagement.base_response import HttpSuccessResponse, HttpErrorResponse
+from usermanagement.serializers.user import UserTokenSerializer
 
 
 class LoginView(views.APIView):

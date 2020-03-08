@@ -37,11 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main',
+    'usermanagement',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
-AUTH_USER_MODEL = 'main.User'
+AUTH_USER_MODEL = 'usermanagement.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

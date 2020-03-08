@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from main.views.login import LoginView, LogoutView
+from usermanagement.views.login import LoginView, LogoutView
 
 urlpatterns = [
     
