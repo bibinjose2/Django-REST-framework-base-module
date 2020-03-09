@@ -1,1 +1,1 @@
-from .users import SoftDeletionManager, User
+from .users import AuthUserManager, User
